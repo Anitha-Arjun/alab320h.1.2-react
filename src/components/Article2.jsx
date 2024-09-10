@@ -3,7 +3,7 @@ function Article2() {
     <article>
       <h3 className="styleColor">11/11/20</h3>
       <h2>Vintage in Vogue</h2>
-      <img src="./src/img/blog-image-2.jpg" width="100%" alt="People" />
+      <img src="../assets/img/blog-image-2.jpg" width="100%" alt="People" />
       <p className="content">
         Selfies sunt, dolor sit amet consectetur adipisicing elit. Repellat
         quidem deserunt nemo dignissimos fuga veniam inventore eligendi magnam
