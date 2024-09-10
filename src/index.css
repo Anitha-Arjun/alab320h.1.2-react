@@ -1,0 +1,117 @@
+body {
+  border-left: 5px solid lightgray;
+  min-height: 100%;
+  max-width: 1000px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: medium;
+  padding: 1rem 2rem;
+}
+
+h1,
+footer {
+  color: tomato;
+}
+
+h3 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.links {
+  list-style-type: none; /* Removes default bullets */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  display: flex; /* Aligns items in a row */
+  flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+  gap: 110px; /* Removes margin from list items */
+}
+
+.links li {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.links li a {
+  color: lightgray;
+  padding-bottom: 60px;
+}
+
+.footer_links {
+  list-style-type: none; /* Removes default bullets */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  display: flex; /* Aligns items in a row */
+  flex-wrap: wrap; /*Allows items to wrap to the next line if needed */
+  gap: 40px; /* Adds equal spacing between items */
+}
+
+.footer_links li {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 200px; /* Removes margin from list items */
+}
+
+.footer_links li a {
+  margin: 15px;
+  margin-bottom: 0;
+  list-style: none;
+  color: tomato;
+  font-size: 14px;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+/* links {
+  text-decoration: none;
+  color: tomato;
+} */
+
+.links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.styleColor {
+  color: lightgray;
+  font-size: 30px;
+}
+
+.text a {
+  text-align: right;
+  /* justify-content: right; */
+  text-decoration: none;
+  font-style: bold;
+  color: tomato;
+  /* position: absolute; */
+  /* bottom: 0;
+    right: 0; */
+  /* width: 100px; */
+}
+
+.text {
+  text-align: right;
+}
+.text::after {
+  content: "\2026";
+  font-size: 25px;
+  color: tomato;
+}
+
+.content {
+  color: gray;
+  font-style: italic;
+}
+.content::first-letter {
+  color: lightgray;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font-size: 300%;
+  padding: 6px 3px;
+  margin-right: 6px;
+  float: left;
+}
+
+.copy_right {
+  color: lightgray;
+  font-size: 10px;
+}
