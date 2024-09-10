@@ -1,4 +1,4 @@
-// import image1 from "./src/img/blog-image-1.jpg";
+import image1 from "../assets/img/blog-image-1.jpg";
 
 function Article1() {
   return (
@@ -7,7 +7,7 @@ function Article1() {
       <h3 className="styleColor">11/12/20</h3>
       <h2>On the Street in Brooklyn</h2>
       {/* <!-- links to the image file --> */}
-      <img src="./src/img/blog-image-1.jpg" width="100%" alt="RoadPic" />
+      <img src= {image1} width="100%" alt="RoadPic" />
       <p className="content">
         Cray ipsum, dolor sit amet consectetur adipisicing elit. Repellat quidem
         deserunt nemo dignissimos fuga veniam inventore eligendi magnam aperiam
